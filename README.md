@@ -6,7 +6,7 @@
 - yolo v3完整代码(inference): https://github.com/ayooshkathuria/pytorch-yolo-v3
 
 
-# 使用说明
+# 使用
  1. 下载权重文件到目录
  ```
  wget https://pjreddie.com/media/files/yolov3.weights 
@@ -19,7 +19,7 @@ python detect.py
 # 其他说明
 注释中的维度数字是以608*608 大小的输入图像为例的
 
-# 源码简要说明
+# 源码流程简要介绍
 以detect.py,也就是main()开始 
 1. 用户输入,传递一堆参数
 2. 构建yolo模型结构
